@@ -1,0 +1,37 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑","苹方";
+	font-style: normal;
+	font-weight: normal;
+	box-sizing: border-box;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	/* 清除A标签下划线 */
+
+	color: #000000;
+	/*  */
+	-webkit-tap-highlight-color: transparent;
+	/* 清除点击效果，可以改变颜色，只存在移动端 */
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 974142 */
+  src: url('//at.alicdn.com/t/font_974142_o6iyb8g9jbd.eot');
+  src: url('//at.alicdn.com/t/font_974142_o6iyb8g9jbd.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_974142_o6iyb8g9jbd.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_974142_o6iyb8g9jbd.woff') format('woff'),
+  url('//at.alicdn.com/t/font_974142_o6iyb8g9jbd.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_974142_o6iyb8g9jbd.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family:iconfont;
+}
+.root{
+	max-width: 640px;
+	height: 100vh;
+	margin: 0 auto;
+}
